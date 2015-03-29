@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.amar.StrategyPattern</OriginalElement>
+  <nodes>
+    <node x="69.5" y="354.0">com.amar.StrategyPattern.Flys</node>
+    <node x="303.0" y="354.0">com.amar.StrategyPattern.AnimalPlay</node>
+    <node x="139.0" y="456.0">com.amar.StrategyPattern.CantFly</node>
+    <node x="0.0" y="0.0">com.amar.StrategyPattern.Animal</node>
+    <node x="178.0" y="268.0">com.amar.StrategyPattern.Bird</node>
+    <node x="16.0" y="257.0">com.amar.StrategyPattern.Dog</node>
+    <node x="0.0" y="456.0">com.amar.StrategyPattern.ItFlys</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.amar.StrategyPattern.CantFly" target="com.amar.StrategyPattern.Flys">
+      <point x="0.0" y="-26.0" />
+      <point x="198.5" y="431.0" />
+      <point x="158.75" y="431.0" />
+      <point x="29.75" y="26.0" />
+    </edge>
+    <edge source="com.amar.StrategyPattern.Bird" target="com.amar.StrategyPattern.Animal">
+      <point x="0.0" y="-15.0" />
+      <point x="207.0" y="232.0" />
+      <point x="220.5" y="232.0" />
+      <point x="73.5" y="103.5" />
+    </edge>
+    <edge source="com.amar.StrategyPattern.ItFlys" target="com.amar.StrategyPattern.Flys">
+      <point x="0.0" y="-26.0" />
+      <point x="59.5" y="431.0" />
+      <point x="99.25" y="431.0" />
+      <point x="-29.75" y="26.0" />
+    </edge>
+    <edge source="com.amar.StrategyPattern.Dog" target="com.amar.StrategyPattern.Animal">
+      <point x="0.0" y="-26.0" />
+      <point x="87.0" y="232.0" />
+      <point x="73.5" y="232.0" />
+      <point x="-73.5" y="103.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="143.5" y="312.5" />
+  <SelectedNodes>
+    <node>com.amar.StrategyPattern.ItFlys</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
